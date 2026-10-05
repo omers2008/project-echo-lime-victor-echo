@@ -4,7 +4,7 @@
 
 ## Receiver
 
-The receiver firmware is in `firmware/elve_receiver/elve_receiver.ino`. It receives a floor number over ESP-NOW and moves the elevator for a calibrated amount of time per floor.
+The receiver firmware is in `firmware/elve_receiver/elve_receiver.ino` and the transmitter code is in my pocket arcade esp project`https://github.com/omers2008/esp32-pocket-arcade' as its one of its apps. It receives a floor number over ESP-NOW and moves the elevator for a calibrated amount of time per floor.
 
 - Board: ESP32 WROOM-32D.
 - Servo signal: GPIO 12, 50 Hz PWM.
